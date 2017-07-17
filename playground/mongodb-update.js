@@ -27,7 +27,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
       name: 'Bianca'
     },
     $inc: {
-      age: +1
+      age: 1
     }
   }, {
     returnOriginal: false
