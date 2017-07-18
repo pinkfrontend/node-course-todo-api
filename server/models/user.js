@@ -20,7 +20,7 @@ var newUser = new User({
 })
 
 newUser.save().then((doc) => {
-  console.log(JSON.stringify(doc, undefined, 2));
+  // console.log(JSON.stringify(doc, undefined, 2));
 }, (err) => {
   console.log(err);
 })
